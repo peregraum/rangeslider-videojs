@@ -22,10 +22,11 @@
   "homepage": "https://github.com/acpmasquerade/rangeslider-videojs#readme",
   "dependencies": {
     "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
     "grunt-contrib-qunit": "latest",
-    "grunt-contrib-uglify": "latest", 
-    "grunt-contrib-jshint": "latest", 
-    "grunt-contrib-watch": "latest", 
-    "grunt-contrib-concat": "latest" 
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "video.js": "5.8.7"
   }
 }
