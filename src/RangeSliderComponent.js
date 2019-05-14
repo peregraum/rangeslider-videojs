@@ -1,4 +1,4 @@
-import './rangeslider.js';
+require('./rangeslider.js');
 
 export default function RangeSliderComponent(options) {
     var player = this;
