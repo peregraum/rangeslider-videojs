@@ -1,3 +1,4 @@
+const videojs = require('video.js');
 /*
  RangeSlider v1.1 (https://github.com/danielcebrian/rangeslider-videojs)
  Copyright (C) 2014 Daniel Cebrián Robles
@@ -36,7 +37,7 @@
  */
 //----------------Load Plugin----------------//
 
-_vjs4 = {
+let _vjs4 = {
     on : function (element, eventName, func, flag) {
         element.addEventListener(eventName, func, flag);
     },
