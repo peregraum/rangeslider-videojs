@@ -71,7 +71,6 @@ let _vjs4 = {
     }
 };
 
-(function () {
     function getYoutubeError(error_int){
         var _langErrors = {
             // invalid-params
@@ -90,7 +89,7 @@ let _vjs4 = {
     }
 
 //-- Load RangeSlider plugin in videojs
-    function RangeSlider_(options) {
+    export default function RangeSlider_(options) {
         var player = this;
 
         player.rangeslider = new RangeSlider(player, options);
@@ -1153,4 +1152,3 @@ let _vjs4 = {
     };
 
     videojs.registerComponent('ControlTimePanelRight', videojsControlTimePanelRight);
-})();
